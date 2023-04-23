@@ -1,0 +1,254 @@
+/* Global Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Header */
+  
+  header {
+    background-color: rgba(162, 193, 161, 0.679);
+  padding: 1rem;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  position: relative;
+  width: 1500px;
+  height: 72px;
+  color: rgb(15, 9, 9);
+  font-family: 'Times New Roman', Times, serif;
+ 
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    font-size: 18px;
+  }
+  
+  /* Hero Section */
+  
+  .hero {
+    background-image: url('my.png');
+    background-size: cover;
+    background-position: center;
+    color: #433434;
+    padding: 110px;
+    height: 350px;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 24px;
+    margin-bottom: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 200;
+  }
+  
+  .btn {
+    background-color: #e3b088;
+    border-radius: 12px;
+    color: #030405;
+    display: inline-block;
+    font-size: 18px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #7dd0ce;
+    color: #ffffff;
+  }
+  
+  /* Features Section */
+  
+  .features {
+    background-color: #edd2d2;
+    padding: 100px;
+    text-align: center;
+  }
+  
+  .features h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .features ul {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+  
+  .features li {
+    width: 30%;
+  }
+  
+  .features img {
+    margin-bottom: 20px;
+  }
+  
+  .features h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .features p {
+    font-size: 18px;
+  }
+  .button{
+    background-color: #1fc8a6;
+    color: #030405;
+    display: inline-block;
+    font-size: 18px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #775ddc;
+    color: #ffffff;
+  }
+
+  
+  /* Contact Section */
+  
+  .contact {
+    background-color: #6fdfa7f6;
+    padding: 100px;
+    max-width: 1400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-image: url("contact.png");
+    background-size: cover;
+   
+  }
+  
+  .contact h2 {
+    font-size: 36px;
+    margin-top: 2px;
+    text-align: center;
+    padding-left: 580px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .contain {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    margin-top: 2px;
+}
+.contain input,
+.contain textarea{
+    background: transparent;
+}
+
+form {
+    flex-basis: 100%;
+    background-color: #236b71;
+    background: transparent;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(115, 112, 182, 0.2);
+    padding: 20px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: left;
+    color: #000000de;
+    font-weight: 800;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid  #04344c;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 150px;
+    resize: none;
+}
+
+input[type="submit"] {
+    background-color: #65ff63;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #5aaa63d2;
+    color: #ffffff;
+    border: 2px solid #c5c0e3;
+}
+
+@media screen and (max-width: 768px) {
+    form {
+        flex-basis: 100%;
+    }
+}
+
+  
+  /* Footer */
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    font-size: 18px;
+   
+  }
