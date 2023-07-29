@@ -119,6 +119,12 @@ body {
   .features img {
     margin-bottom: 20px;
   }
+  .features img:hover{
+    background-color: rgb(30, 73, 59);
+    margin-bottom: 22px;
+    transform: translateY(-20px);
+
+  }
   
   .features h3 {
     font-size: 24px;
